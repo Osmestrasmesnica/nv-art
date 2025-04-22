@@ -25,106 +25,73 @@
 
 </head>
 <body>
-	<!-- Page Preloder -->
-	 <!--! VIDI DA LI HOCE NEKA SLIKA DA SE OVDE VRTI ILI SLICICA ILI NEKA ANIMACIJA -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-
-	<!-- OVO JE CANVAS GDE CE SVE BITI -->
-	<div id="canvas">
-		<!-- Header Section -->
-		<header class="header">
-			<div class="container-fluid">
-				<div class="row justify-content-center">
-					<div class="col-sm-4 col-md-3 order-2 order-sm-1">
-						<div class="header__social" style="justify-self: left">
-							<!-- <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>-->
-							<a href="#"><i class="fa fa-instagram" style="font-size:1.5rem;"></i></a> 
-						</div>
-					</div>
-
-					<div class="col-sm-4 col-md-6 order-1 order-md-2 text-center">
-						<a href="./index.html" class="site-logo" style="position: relative; display: inline-block;">
-							<img src="img/text-logo.png" alt="logo of site" style="width: 100%; height: auto;">
-
-							<!-- !SLIKA TREBA DA JE 65% a ostalo 12.5%
-							<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
-								<p style="text-align: center;letter-spacing:0.5rem ;color: #826F5B; font-size: 2rem; font-weight: bold; font-variant: small-caps; font-family: 'Fiorina Title Light', serif;">
-									Nataša Vlku
-								</p>
-							</div> -->
-						</a>
-					</div>
-
-					<div class="col-sm-4 col-md-3 order-3 order-sm-3">
-						<div class="header__switches">
-							<!-- <a href="#" class="search-switch"><i class="fa fa-search"></i></a> -->
-							<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
-							<a href="#" class="languauge-switch" style="font-weight: bold; font-size: 1 rem;">DE/EN</a>
-							<!-- <a href="#"><i class="fa fa-shopping-cart"></i></a> -->
-						</div>
+  <div class="container" id="frame">
+	<!-- Header Section -->
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-sm-4 col-md-3 order-2 order-sm-1">
+					<div class="header__social" style="justify-self: left">
+						<a href="#"><i class="fa fa-instagram" style="font-size:1.5rem;"></i></a> 
 					</div>
 				</div>
-				<nav class="main__menu">
-					<div class="page-divider"></div>
-					<ul class="nav__menu">
-						<li><a href="./index.html" class="menu--active">Home</a></li>
-						<li><a href="./gallery.html">Gallery</a></li>
-						<li><a href="./about.html">About</a></li>
-						<!-- <li><a href="./blog.html">Blog</a>
-							<ul class="sub__menu">
-								<li><a href="./blog-single.html">Blog Single</a></li>
-							</ul>
-						</li> -->
-						<li><a href="./contact.html">Contact</a></li>
-					</ul>
-					<div class="page-divider"></div>
-				</nav>
-			</div>
-		</header>
-		<!-- Header Section end -->
-	
-		<!-- Hero Section -->
-		<section class="hero__section">
-			<div class="custom-cursor"></div>
-			<div class="slider-container">
-				<div class="slider">
-					
-				</div>
-			</div>
-		</section>
-		<!-- Hero Section end -->
-	
-		<!-- Footer Section -->
-		<footer class="footer__section">
-			<div class="container">
-				<div class="footer__copyright__text">
-					<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Created by <a href="https://osmestrasmesnica.github.io/vlkualeksa/" target="_blank">WLQ Innovations</a></p>
-				</div>
-			</div>
-		</footer>
-		<!-- Footer Section end -->
-	</div>
 
-	<!-- Search Begin -->
-	<div class="search-model">
-		<div class="h-100 d-flex align-items-center justify-content-center">
-			<div class="search-close-switch">+</div>
-			<form class="search-model-form">
-				<input type="text" id="search-input" placeholder="Search here.....">
-			</form>
+				<div class="col-sm-4 col-md-6 order-1 order-md-2 text-center">
+					<a href="./index.html" class="site-logo" style="position: relative; display: inline-block;">
+						<img src="img/text-logo.png" id="logo" alt="logo of site">
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
+					<div class="header__switches">
+						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
+						<a href="#" class="language-switch" style="font-weight: bold; font-size: 1 rem;">DE/EN</a>
+					</div>
+				</div>
+			</div>
+			<nav class="main__menu">
+				<div class="page-divider"></div>
+				<ul class="nav__menu">
+					<li><a href="./index.html" class="menu--active">Home</a></li>
+					<li><a href="./gallery.html">Gallery</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+				<div class="page-divider"></div>
+			</nav>
 		</div>
-	</div>
-	<!-- Search End -->
+	</header>
+	<!-- Header Section end -->
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/vendor/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/fresco.min.js"></script>
-	<script src="js/main.js"></script>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="custom-cursor"></div>
+        <div class="slider-container">
+            <div class="slider">            
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section end -->
 
-	</body>
+
+    <!-- Footer Section -->
+    <footer class="footer__section">
+        <div class="container">
+            <div class="footer__copyright__text">
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Created by <a href="https://osmestrasmesnica.github.io/vlkualeksa/" target="_blank">WLQ Innovations</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section end -->
+
+  </div> <!-- container frame div -->
+
+<!--====== Javascripts & Jquery ======-->
+<script src="js/vendor/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/fresco.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
 </html>
