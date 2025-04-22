@@ -166,7 +166,7 @@ body {
 @media (max-width: 576px) {
 	.hero-section {
 		margin: 0 0 2rem;
-		height: 100vh;
+		/* height: 100vh; */
 		align-items: center;
 	}
 }
@@ -175,7 +175,7 @@ body {
     Slider (Tablet & Mobile)
 ================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 760x) {
 	.slider-container {
 		width: 100%;
 		padding: 0 5px;
