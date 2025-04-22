@@ -15,10 +15,10 @@ class Slider {
 
 		// Configuration des images
 		this.images = [
-		   "./img/hero-slider/slider-1.jpg",
-			"./img/hero-slider/slider-2.jpg",
-			"./img/hero-slider/slider-3.jpg",
-			"./img/hero-slider/slider-4.jpg",
+		   "/img/hero-slider/slider-1.jpg",
+			"/img/hero-slider/slider-2.jpg",
+			"/img/hero-slider/slider-3.jpg",
+			"/img/hero-slider/slider-4.jpg",
 		];
 		
 		this.currentIndex = this.images.length;
@@ -41,7 +41,7 @@ class Slider {
 			const index = i % this.images.length;
 			const slide = document.createElement('div');
 			slide.className = 'slide';
-			slide.innerHTML = `<img src="${this.images[index]}" alt="Slide ${index + 1}">`;
+			slide.innerHTML = `<img src=".${this.images[index]}" alt="Slide ${index + 1}">`;
 			this.slider.appendChild(slide);
 		}
 	}
