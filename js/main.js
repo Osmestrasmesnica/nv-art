@@ -15,10 +15,10 @@ class Slider {
 
 		// Configuration des images
 		this.images = [
-		   "../img/hero-slider/slider-1.jpg",
-			"../img/hero-slider/slider-2.jpg",
-			"../img/hero-slider/slider-3.jpg",
-			"../img/hero-slider/slider-4.jpg",
+		   "/img/hero-slider/slider-1.jpg",
+			"/img/hero-slider/slider-2.jpg",
+			"/img/hero-slider/slider-3.jpg",
+			"/img/hero-slider/slider-4.jpg",
 		];
 		
 		this.currentIndex = this.images.length;
