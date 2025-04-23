@@ -41,7 +41,7 @@ class Slider {
 			const index = i % this.images.length;
 			const slide = document.createElement('div');
 			slide.className = 'slide';
-			slide.innerHTML = `<img src="../${this.images[index]}" alt="Slide ${index + 1}">`;
+			slide.innerHTML = `<img src="${this.images[index]}" alt="Slide ${index + 1}">`;
 			this.slider.appendChild(slide);
 		}
 	}
